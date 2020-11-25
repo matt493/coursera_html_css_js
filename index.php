@@ -1,3 +1,4 @@
 <?php
-echo(shell_exec("ping google.com"))
+$output = shell_exec("ping google.com");
+echo "<pre>$output</pre>";
 ?>
